@@ -1,0 +1,6 @@
+framework module SpeakPen {
+  umbrella header "SpeakPen.h"
+
+  export *
+  module * { export * }
+}

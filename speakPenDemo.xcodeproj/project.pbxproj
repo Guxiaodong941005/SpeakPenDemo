@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38853DF936F28CABB3D4D03A /* Pods_speakPenDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB63D230CD0A48F59E3C23FE /* Pods_speakPenDemo.framework */; };
+		88062A7E24305528006F2F9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88062A7D24305528006F2F9E /* AppDelegate.m */; };
+		88062A8124305528006F2F9E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88062A8024305528006F2F9E /* SceneDelegate.m */; };
+		88062A8424305528006F2F9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88062A8324305528006F2F9E /* ViewController.m */; };
+		88062A8724305528006F2F9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88062A8524305528006F2F9E /* Main.storyboard */; };
+		88062A8924305529006F2F9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88062A8824305529006F2F9E /* Assets.xcassets */; };
+		88062A8C24305529006F2F9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88062A8A24305529006F2F9E /* LaunchScreen.storyboard */; };
+		88062A8F24305529006F2F9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88062A8E24305529006F2F9E /* main.m */; };
+		88062A9924305529006F2F9E /* speakPenDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88062A9824305529006F2F9E /* speakPenDemoTests.m */; };
+		88062AA42430552A006F2F9E /* speakPenDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88062AA32430552A006F2F9E /* speakPenDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88062A9524305529006F2F9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88062A7124305527006F2F9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88062A7824305528006F2F9E;
+			remoteInfo = speakPenDemo;
+		};
+		88062AA02430552A006F2F9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88062A7124305527006F2F9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88062A7824305528006F2F9E;
+			remoteInfo = speakPenDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		230F0E45958A73D729650FE2 /* Pods-speakPenDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-speakPenDemo.debug.xcconfig"; path = "Target Support Files/Pods-speakPenDemo/Pods-speakPenDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		88062A7924305528006F2F9E /* speakPenDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = speakPenDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88062A7C24305528006F2F9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88062A7D24305528006F2F9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88062A7F24305528006F2F9E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		88062A8024305528006F2F9E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		88062A8224305528006F2F9E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		88062A8324305528006F2F9E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		88062A8624305528006F2F9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88062A8824305529006F2F9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88062A8B24305529006F2F9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88062A8D24305529006F2F9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88062A8E24305529006F2F9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88062A9424305529006F2F9E /* speakPenDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = speakPenDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88062A9824305529006F2F9E /* speakPenDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = speakPenDemoTests.m; sourceTree = "<group>"; };
+		88062A9A24305529006F2F9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88062A9F2430552A006F2F9E /* speakPenDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = speakPenDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88062AA32430552A006F2F9E /* speakPenDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = speakPenDemoUITests.m; sourceTree = "<group>"; };
+		88062AA52430552A006F2F9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B30CD91E969255D4A6501BA3 /* Pods-speakPenDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-speakPenDemo.release.xcconfig"; path = "Target Support Files/Pods-speakPenDemo/Pods-speakPenDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FB63D230CD0A48F59E3C23FE /* Pods_speakPenDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_speakPenDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88062A7624305528006F2F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38853DF936F28CABB3D4D03A /* Pods_speakPenDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88062A9124305529006F2F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88062A9C2430552A006F2F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BA9D2D0A9E62C9140576099 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB63D230CD0A48F59E3C23FE /* Pods_speakPenDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88062A7024305527006F2F9E = {
+			isa = PBXGroup;
+			children = (
+				88062A7B24305528006F2F9E /* speakPenDemo */,
+				88062A9724305529006F2F9E /* speakPenDemoTests */,
+				88062AA22430552A006F2F9E /* speakPenDemoUITests */,
+				88062A7A24305528006F2F9E /* Products */,
+				F03B416751A9C0D3234A2A98 /* Pods */,
+				7BA9D2D0A9E62C9140576099 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		88062A7A24305528006F2F9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88062A7924305528006F2F9E /* speakPenDemo.app */,
+				88062A9424305529006F2F9E /* speakPenDemoTests.xctest */,
+				88062A9F2430552A006F2F9E /* speakPenDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88062A7B24305528006F2F9E /* speakPenDemo */ = {
+			isa = PBXGroup;
+			children = (
+				88062A7C24305528006F2F9E /* AppDelegate.h */,
+				88062A7D24305528006F2F9E /* AppDelegate.m */,
+				88062A7F24305528006F2F9E /* SceneDelegate.h */,
+				88062A8024305528006F2F9E /* SceneDelegate.m */,
+				88062A8224305528006F2F9E /* ViewController.h */,
+				88062A8324305528006F2F9E /* ViewController.m */,
+				88062A8524305528006F2F9E /* Main.storyboard */,
+				88062A8824305529006F2F9E /* Assets.xcassets */,
+				88062A8A24305529006F2F9E /* LaunchScreen.storyboard */,
+				88062A8D24305529006F2F9E /* Info.plist */,
+				88062A8E24305529006F2F9E /* main.m */,
+			);
+			path = speakPenDemo;
+			sourceTree = "<group>";
+		};
+		88062A9724305529006F2F9E /* speakPenDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				88062A9824305529006F2F9E /* speakPenDemoTests.m */,
+				88062A9A24305529006F2F9E /* Info.plist */,
+			);
+			path = speakPenDemoTests;
+			sourceTree = "<group>";
+		};
+		88062AA22430552A006F2F9E /* speakPenDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88062AA32430552A006F2F9E /* speakPenDemoUITests.m */,
+				88062AA52430552A006F2F9E /* Info.plist */,
+			);
+			path = speakPenDemoUITests;
+			sourceTree = "<group>";
+		};
+		F03B416751A9C0D3234A2A98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				230F0E45958A73D729650FE2 /* Pods-speakPenDemo.debug.xcconfig */,
+				B30CD91E969255D4A6501BA3 /* Pods-speakPenDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88062A7824305528006F2F9E /* speakPenDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88062AA82430552A006F2F9E /* Build configuration list for PBXNativeTarget "speakPenDemo" */;
+			buildPhases = (
+				AA8F5CA649AF62454C85B42F /* [CP] Check Pods Manifest.lock */,
+				88062A7524305528006F2F9E /* Sources */,
+				88062A7624305528006F2F9E /* Frameworks */,
+				88062A7724305528006F2F9E /* Resources */,
+				09FA3C6025E1A3E871C71612 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = speakPenDemo;
+			productName = speakPenDemo;
+			productReference = 88062A7924305528006F2F9E /* speakPenDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88062A9324305529006F2F9E /* speakPenDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88062AAB2430552A006F2F9E /* Build configuration list for PBXNativeTarget "speakPenDemoTests" */;
+			buildPhases = (
+				88062A9024305529006F2F9E /* Sources */,
+				88062A9124305529006F2F9E /* Frameworks */,
+				88062A9224305529006F2F9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88062A9624305529006F2F9E /* PBXTargetDependency */,
+			);
+			name = speakPenDemoTests;
+			productName = speakPenDemoTests;
+			productReference = 88062A9424305529006F2F9E /* speakPenDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88062A9E2430552A006F2F9E /* speakPenDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88062AAE2430552A006F2F9E /* Build configuration list for PBXNativeTarget "speakPenDemoUITests" */;
+			buildPhases = (
+				88062A9B2430552A006F2F9E /* Sources */,
+				88062A9C2430552A006F2F9E /* Frameworks */,
+				88062A9D2430552A006F2F9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88062AA12430552A006F2F9E /* PBXTargetDependency */,
+			);
+			name = speakPenDemoUITests;
+			productName = speakPenDemoUITests;
+			productReference = 88062A9F2430552A006F2F9E /* speakPenDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88062A7124305527006F2F9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = stp;
+				TargetAttributes = {
+					88062A7824305528006F2F9E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					88062A9324305529006F2F9E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 88062A7824305528006F2F9E;
+					};
+					88062A9E2430552A006F2F9E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 88062A7824305528006F2F9E;
+					};
+				};
+			};
+			buildConfigurationList = 88062A7424305527006F2F9E /* Build configuration list for PBXProject "speakPenDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88062A7024305527006F2F9E;
+			productRefGroup = 88062A7A24305528006F2F9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88062A7824305528006F2F9E /* speakPenDemo */,
+				88062A9324305529006F2F9E /* speakPenDemoTests */,
+				88062A9E2430552A006F2F9E /* speakPenDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88062A7724305528006F2F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88062A8C24305529006F2F9E /* LaunchScreen.storyboard in Resources */,
+				88062A8924305529006F2F9E /* Assets.xcassets in Resources */,
+				88062A8724305528006F2F9E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88062A9224305529006F2F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88062A9D2430552A006F2F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09FA3C6025E1A3E871C71612 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-speakPenDemo/Pods-speakPenDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-speakPenDemo/Pods-speakPenDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-speakPenDemo/Pods-speakPenDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA8F5CA649AF62454C85B42F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-speakPenDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88062A7524305528006F2F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88062A8424305528006F2F9E /* ViewController.m in Sources */,
+				88062A7E24305528006F2F9E /* AppDelegate.m in Sources */,
+				88062A8F24305529006F2F9E /* main.m in Sources */,
+				88062A8124305528006F2F9E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88062A9024305529006F2F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88062A9924305529006F2F9E /* speakPenDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88062A9B2430552A006F2F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88062AA42430552A006F2F9E /* speakPenDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88062A9624305529006F2F9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88062A7824305528006F2F9E /* speakPenDemo */;
+			targetProxy = 88062A9524305529006F2F9E /* PBXContainerItemProxy */;
+		};
+		88062AA12430552A006F2F9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88062A7824305528006F2F9E /* speakPenDemo */;
+			targetProxy = 88062AA02430552A006F2F9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88062A8524305528006F2F9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88062A8624305528006F2F9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88062A8A24305529006F2F9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88062A8B24305529006F2F9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88062AA62430552A006F2F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		88062AA72430552A006F2F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88062AA92430552A006F2F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 230F0E45958A73D729650FE2 /* Pods-speakPenDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = speakPenDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.speakPenDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88062AAA2430552A006F2F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B30CD91E969255D4A6501BA3 /* Pods-speakPenDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = speakPenDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.speakPenDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		88062AAC2430552A006F2F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = speakPenDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.speakPenDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/speakPenDemo.app/speakPenDemo";
+			};
+			name = Debug;
+		};
+		88062AAD2430552A006F2F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = speakPenDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.speakPenDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/speakPenDemo.app/speakPenDemo";
+			};
+			name = Release;
+		};
+		88062AAF2430552A006F2F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = speakPenDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.speakPenDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = speakPenDemo;
+			};
+			name = Debug;
+		};
+		88062AB02430552A006F2F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = speakPenDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.speakPenDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = speakPenDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88062A7424305527006F2F9E /* Build configuration list for PBXProject "speakPenDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88062AA62430552A006F2F9E /* Debug */,
+				88062AA72430552A006F2F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88062AA82430552A006F2F9E /* Build configuration list for PBXNativeTarget "speakPenDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88062AA92430552A006F2F9E /* Debug */,
+				88062AAA2430552A006F2F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88062AAB2430552A006F2F9E /* Build configuration list for PBXNativeTarget "speakPenDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88062AAC2430552A006F2F9E /* Debug */,
+				88062AAD2430552A006F2F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88062AAE2430552A006F2F9E /* Build configuration list for PBXNativeTarget "speakPenDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88062AAF2430552A006F2F9E /* Debug */,
+				88062AB02430552A006F2F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88062A7124305527006F2F9E /* Project object */;
+}

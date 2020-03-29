@@ -1,0 +1,6 @@
+framework module Pods_speakPenDemo {
+  umbrella header "Pods-speakPenDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
