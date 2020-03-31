@@ -1,20 +1,20 @@
 //
-//  RBAuthApi.h
+//  STPAuthApi.h
 //  Pods
 //
-//  Created by baxiang on 16/11/12.
+//  Created by kris on 16/11/12.
 //
 //
 
 #import <Foundation/Foundation.h>
-#import "RBUserModel.h"
+#import "STPUserModel.h"
 
 
 
-typedef NS_ENUM(NSInteger,RBSendCodeType) {
-    RBSendCodeTypeRegister = 1,/**!注册新账号号发送**/
-    RBSendCodeTypeResetPhone    = 2,/**!修改手机号发送**/
-    RBSendCodeTypeResetPsd      = 3,/**!修改其他发送**/
+typedef NS_ENUM(NSInteger,STPSendCodeType) {
+    STPSendCodeTypeRegister = 1,/**!注册新账号号发送**/
+    STPSendCodeTypeResetPhone    = 2,/**!修改手机号发送**/
+    STPSendCodeTypeResetPsd      = 3,/**!修改其他发送**/
 };
 
 
@@ -25,7 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  用户登录与注册api 目前不对外开放
  */
-@interface RBAuthApi : NSObject
+@interface STPAuthApi : NSObject
 
 /**
  用户手机号码是否注册
@@ -43,7 +43,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param code 验证码
  @param nickName 用户名称
  */
-+ (void)regist:(NSString *_Nonnull)phoneNum password:(NSString *_Nonnull)password code:(NSString *_Nonnull)code nickName:(NSString *_Nonnull)nickName completionBlock:(nullable void (^)(RBUserModel *user,NSError *error)) completionBlock;
++ (void)regist:(NSString *_Nonnull)phoneNum password:(NSString *_Nonnull)password code:(NSString *_Nonnull)code nickName:(NSString *_Nonnull)nickName completionBlock:(nullable void (^)(STPUserModel *user,NSError *error)) completionBlock;
 
 /**
  发送验证码
@@ -52,7 +52,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param type 验证码类型
  
  */
-+ (void)sendCode:(NSString *_Nonnull)phoneNum type:(RBSendCodeType )type completionBlock:(nullable void (^)(BOOL isSend,NSError *error)) completionBlock;
++ (void)sendCode:(NSString *_Nonnull)phoneNum type:(STPSendCodeType )type completionBlock:(nullable void (^)(BOOL isSend,NSError *error)) completionBlock;
 
 #pragma mark ------------------- 用户登录 ------------------------
 /**
@@ -62,8 +62,16 @@ NS_ASSUME_NONNULL_BEGIN
  @param passWord 用户密码
  
  */
-+ (void)login:(NSString*_Nonnull)phoneNum passWord:(NSString*_Nonnull)passWord completionBlock:(nullable void (^)(RBUserModel *user,NSError *error)) completionBlock;
++ (void)login:(NSString*_Nonnull)phoneNum passWord:(NSString*_Nonnull)passWord completionBlock:(nullable void (^)(STPUserModel *user,NSError *error)) completionBlock;
 
+/**
+ 第三方登录
+
+ @param phone 手机号码
+ @param passwd 用户密码
+ @param thirdCode 第三方code
+ */
++(void)loginEx:(NSString*)phone passwd:(NSString*)passwd thirdCode:(NSString*)thirdCode block:(void (^)(STPUserModel *user,NSError *error))block;
 
 /**
  更改手机号码

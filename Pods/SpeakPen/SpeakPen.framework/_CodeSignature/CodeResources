@@ -4,692 +4,106 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/RBAccessConfig.h</key>
+		<key>Headers/STPAccessConfig.h</key>
 		<data>
-		zc/h6LP8ZAoSJNN230hefANJZw0=
+		WhnyPd87FYtbLBeuKlNjmxxu7Iw=
 		</data>
-		<key>Headers/RBAuthApi.h</key>
+		<key>Headers/STPAuthApi.h</key>
 		<data>
-		nUvS+4EI3+qIUbN8SEnYPhY+9xk=
+		APgMKYWoEHA8TBx6xy6E0x0fFc8=
 		</data>
-		<key>Headers/RBDeviceApi.h</key>
+		<key>Headers/STPDeviceApi.h</key>
 		<data>
-		HRRnfmDt5OR0j5+uTU1PmZofY8g=
+		LGaB3o+qSh+Zbpy6yuR/fg200D0=
 		</data>
-		<key>Headers/RBDeviceModel.h</key>
+		<key>Headers/STPDeviceModel.h</key>
 		<data>
-		VTEWZNu5CIGylg6I9YqQoA3evLo=
+		MlSJUaAyznZP2DttFKn0lanJcbE=
 		</data>
-		<key>Headers/RBPlayerApi.h</key>
+		<key>Headers/STPUserApi.h</key>
 		<data>
-		wsHuAUf015++I39yIL6pIzXAtFY=
+		fBywY83c8S2yjh94NPVAFWRHzec=
 		</data>
-		<key>Headers/RBResourceModel.h</key>
+		<key>Headers/STPUserModel.h</key>
 		<data>
-		Dqu09ojI+QDS2NRktja8CIJLV60=
-		</data>
-		<key>Headers/RBUserApi.h</key>
-		<data>
-		8P3rMJKsYHaaFn3aHZKIe0VPWK8=
-		</data>
-		<key>Headers/RBUserInfoApi.h</key>
-		<data>
-		ik9lTOTS0wDQyNKStXK7Z05Y8YM=
-		</data>
-		<key>Headers/RBUserModel.h</key>
-		<data>
-		sAD46PMktVTYKtDSmk5WoXUWdqo=
-		</data>
-		<key>Headers/SpeakPen.h</key>
-		<data>
-		/We0z2mSmgRNMDwlwUorV3t0eAY=
+		2wjOhT4r6RkGAZeH68+pOfriBsM=
 		</data>
 		<key>Info.plist</key>
 		<data>
 		DKQrMZWSxvfzDDx5vmkF9aXzlpY=
 		</data>
-		<key>MitLoading.bundle/en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YVHzvPNhfoKXmRjCCFf8txy/FHE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>MitLoading.bundle/icon_tips_fail@2x.png</key>
-		<data>
-		nih29q5BoEnCAMRRfCZSM7fjWnk=
-		</data>
-		<key>MitLoading.bundle/icon_tips_fail@3x.png</key>
-		<data>
-		hVgzD0qTh0Mv6GiD9e8vD0p/d8M=
-		</data>
-		<key>MitLoading.bundle/icon_tips_success@2x.png</key>
-		<data>
-		o4x2loOD4ssSz/CgNqYBIqZ/sUQ=
-		</data>
-		<key>MitLoading.bundle/icon_tips_success@3x.png</key>
-		<data>
-		9tbZscG5Rsaof8pfH90NXCk1UVg=
-		</data>
-		<key>MitLoading.bundle/loading_10@2x.png</key>
-		<data>
-		pHVTrA+j/r0AvhGuROpuFvYPGpY=
-		</data>
-		<key>MitLoading.bundle/loading_11@2x.png</key>
-		<data>
-		/liwfmDPMBxled2ozwCNkjflPLU=
-		</data>
-		<key>MitLoading.bundle/loading_12@2x.png</key>
-		<data>
-		L/xfbqztwL9yoc1ITK8VhOIq9fU=
-		</data>
-		<key>MitLoading.bundle/loading_13@2x.png</key>
-		<data>
-		nX5qNKliXPZ1NODbodFhEkL/IAU=
-		</data>
-		<key>MitLoading.bundle/loading_14@2x.png</key>
-		<data>
-		Ggg6xNL831E6jcqO3LjpO2wNrYg=
-		</data>
-		<key>MitLoading.bundle/loading_15@2x.png</key>
-		<data>
-		A8uwVAkurtSwFrgXRmupOfC3T2c=
-		</data>
-		<key>MitLoading.bundle/loading_16@2x.png</key>
-		<data>
-		2pcioGE5ZMAJSmaiv0WP76Ygp6g=
-		</data>
-		<key>MitLoading.bundle/loading_17@2x.png</key>
-		<data>
-		722BvTlohoqfbTM+P5yo7+etUAI=
-		</data>
-		<key>MitLoading.bundle/loading_18@2x.png</key>
-		<data>
-		b9OsbNeMRa6YK3YWfphFf8UyOT8=
-		</data>
-		<key>MitLoading.bundle/loading_19@2x.png</key>
-		<data>
-		O3LEZy2muhEx7L6gb94Qd4YbHeQ=
-		</data>
-		<key>MitLoading.bundle/loading_1@2x.png</key>
-		<data>
-		zDtQP8kJk/zT/8/dO0KcVL4sFdU=
-		</data>
-		<key>MitLoading.bundle/loading_20@2x.png</key>
-		<data>
-		7OTimBoGfrJX5cgKsPa2aTORUug=
-		</data>
-		<key>MitLoading.bundle/loading_21@2x.png</key>
-		<data>
-		ezQXg7anu3wmjZWWCudthTz6bDw=
-		</data>
-		<key>MitLoading.bundle/loading_22@2x.png</key>
-		<data>
-		AxnwcobN5mt/sZS38Wwp5GOosWo=
-		</data>
-		<key>MitLoading.bundle/loading_23@2x.png</key>
-		<data>
-		PVKQzWJDPf0egvGZubW5Bky2SJA=
-		</data>
-		<key>MitLoading.bundle/loading_24@2x.png</key>
-		<data>
-		qeqWOY9/c0Iw2Fm8+6va1r5rUFg=
-		</data>
-		<key>MitLoading.bundle/loading_25@2x.png</key>
-		<data>
-		xEdh1H1vS/Uen6kT/3biGcpm0HY=
-		</data>
-		<key>MitLoading.bundle/loading_26@2x.png</key>
-		<data>
-		722BvTlohoqfbTM+P5yo7+etUAI=
-		</data>
-		<key>MitLoading.bundle/loading_2@2x.png</key>
-		<data>
-		jj8Pk2rk/TuIdqnCo1uiHQ3RQbQ=
-		</data>
-		<key>MitLoading.bundle/loading_3@2x.png</key>
-		<data>
-		pVm9Yb+SVQOPDd9w0I7NP74o0B4=
-		</data>
-		<key>MitLoading.bundle/loading_4@2x.png</key>
-		<data>
-		KvpO/3/LUeytsKkTt/YJpxov08Q=
-		</data>
-		<key>MitLoading.bundle/loading_5@2x.png</key>
-		<data>
-		GN39YX0K+upBOj2jCxZJLVFI3D4=
-		</data>
-		<key>MitLoading.bundle/loading_6@2x.png</key>
-		<data>
-		Np48gEFinpsLU+2b/ek4auW7eM0=
-		</data>
-		<key>MitLoading.bundle/loading_7@2x.png</key>
-		<data>
-		VB4zQoFrY+5QkT/b/8rz6H1J9vY=
-		</data>
-		<key>MitLoading.bundle/loading_8@2x.png</key>
-		<data>
-		722BvTlohoqfbTM+P5yo7+etUAI=
-		</data>
-		<key>MitLoading.bundle/loading_9@2x.png</key>
-		<data>
-		6BlmRmcF7otoBoe/b9Hx1w7vmFg=
-		</data>
-		<key>MitLoading.bundle/zh-Hans.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			30uJVKZ2nsBkYHCQXpS85r5ntbg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Modules/module.modulemap</key>
 		<data>
 		qO0dEeG1WfTCoh1zuq+l3/DLAwM=
 		</data>
-		<key>RBLoginKit.bundle/icon_eye_off@2x.png</key>
-		<data>
-		uNC/MkASaogsbZB0buMrU4X8QCc=
-		</data>
-		<key>RBLoginKit.bundle/icon_eye_off@3x.png</key>
-		<data>
-		UnArs7jyAx+OlmMaQotwqSE0CC0=
-		</data>
-		<key>RBLoginKit.bundle/icon_eye_on@2x.png</key>
-		<data>
-		n5QN1sRyokgqtJ1Q1xuYPSblDng=
-		</data>
-		<key>RBLoginKit.bundle/icon_eye_on@3x.png</key>
-		<data>
-		3QWrEodnBwnaUv0LOOgqzIWvUC8=
-		</data>
-		<key>RBLoginKit.bundle/icon_white_back@2x.png</key>
-		<data>
-		SqlzqTZ8mCRk48UdSBrJ0MqRvP0=
-		</data>
-		<key>RBLoginKit.bundle/icon_white_back@3x.png</key>
-		<data>
-		l6/aDUR89fC6crEO0k2XmtFgHn8=
-		</data>
-		<key>RBVoice.bundle/nearpudding.mp3</key>
-		<data>
-		ZppOBRFS6khRPOfli21wT4esnH4=
-		</data>
-		<key>RBVoice.bundle/opensoudwave.mp3</key>
-		<data>
-		F8iYlVSwuRe4LPm7SYSIHgNEQOY=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/RBAccessConfig.h</key>
+		<key>Headers/STPAccessConfig.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zc/h6LP8ZAoSJNN230hefANJZw0=
+			WhnyPd87FYtbLBeuKlNjmxxu7Iw=
 			</data>
 			<key>hash2</key>
 			<data>
-			ixiEv7/S7uGXhq8x3rHoq/L/kcLn5yI2tu/TqgZ7UrE=
+			2g14S8jkK6CChrWVCnNvbDb6jTPFtIx55DuOaZ/ZOxw=
 			</data>
 		</dict>
-		<key>Headers/RBAuthApi.h</key>
+		<key>Headers/STPAuthApi.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nUvS+4EI3+qIUbN8SEnYPhY+9xk=
+			APgMKYWoEHA8TBx6xy6E0x0fFc8=
 			</data>
 			<key>hash2</key>
 			<data>
-			ToyU6IqGYZQcHcbNwEgZQY8QsTdXITT3gls+VbW2pS4=
+			/PRvftVAJbirkBbY5QrWHNZOF6WuzWAdED6gK8ubs7g=
 			</data>
 		</dict>
-		<key>Headers/RBDeviceApi.h</key>
+		<key>Headers/STPDeviceApi.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HRRnfmDt5OR0j5+uTU1PmZofY8g=
+			LGaB3o+qSh+Zbpy6yuR/fg200D0=
 			</data>
 			<key>hash2</key>
 			<data>
-			yTg54GZfLRhn6XtN2yqxPT2t9Gr8Qv+ACr0J/ZW6mxU=
+			8WyDPg43J1yPtgpCle+L+TXQc5tbc4m+OC96EgQmCHY=
 			</data>
 		</dict>
-		<key>Headers/RBDeviceModel.h</key>
+		<key>Headers/STPDeviceModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VTEWZNu5CIGylg6I9YqQoA3evLo=
+			MlSJUaAyznZP2DttFKn0lanJcbE=
 			</data>
 			<key>hash2</key>
 			<data>
-			gU1yXNzeAUEiRXOn4mBOftzRoJ24jkEreEyjQvLXzZY=
+			1D45h+6ePGNZUcisNRvEIALTmd03dK1WW3ubyR35AcM=
 			</data>
 		</dict>
-		<key>Headers/RBPlayerApi.h</key>
+		<key>Headers/STPUserApi.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wsHuAUf015++I39yIL6pIzXAtFY=
+			fBywY83c8S2yjh94NPVAFWRHzec=
 			</data>
 			<key>hash2</key>
 			<data>
-			vgEOWMV67J4sXpUTagUZ4aXZ92QDePsXA6tdkSuEW5U=
+			dSXAmp3ZCmMCGZu/25CGD+V6g7JKeWA0J9d5pDQuPcQ=
 			</data>
 		</dict>
-		<key>Headers/RBResourceModel.h</key>
+		<key>Headers/STPUserModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Dqu09ojI+QDS2NRktja8CIJLV60=
+			2wjOhT4r6RkGAZeH68+pOfriBsM=
 			</data>
 			<key>hash2</key>
 			<data>
-			gl05wz4YXLKA0pR2qEidfYHESfJjLhmUyQYGmpTRCSc=
+			vuNlDoWBvs50Mv3YUwr6Thj6uo9qlpNhDxUcGDhH8pE=
 			</data>
-		</dict>
-		<key>Headers/RBUserApi.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			8P3rMJKsYHaaFn3aHZKIe0VPWK8=
-			</data>
-			<key>hash2</key>
-			<data>
-			MTLHsqzs2prgRHJxkOnhCCRgsR/TPl8cn9LGFn2rLJo=
-			</data>
-		</dict>
-		<key>Headers/RBUserInfoApi.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ik9lTOTS0wDQyNKStXK7Z05Y8YM=
-			</data>
-			<key>hash2</key>
-			<data>
-			bdoYYqPI/E7pVNScXvK+3kRwhxZK6wZ1aDCkD7WSb2I=
-			</data>
-		</dict>
-		<key>Headers/RBUserModel.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			sAD46PMktVTYKtDSmk5WoXUWdqo=
-			</data>
-			<key>hash2</key>
-			<data>
-			YtoAE8bDUupIJeNdoaDD5QanvtQn5IVamS6z6KcT1JY=
-			</data>
-		</dict>
-		<key>Headers/SpeakPen.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/We0z2mSmgRNMDwlwUorV3t0eAY=
-			</data>
-			<key>hash2</key>
-			<data>
-			IiK0rtTyV3a5tKbn1SIu+ubqbLHK89bkACRoUDQiowg=
-			</data>
-		</dict>
-		<key>MitLoading.bundle/en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YVHzvPNhfoKXmRjCCFf8txy/FHE=
-			</data>
-			<key>hash2</key>
-			<data>
-			NIqHpDvKrykkbjf7qjvGooxDf2RiKD3S32ZUY+sicfo=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>MitLoading.bundle/icon_tips_fail@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			nih29q5BoEnCAMRRfCZSM7fjWnk=
-			</data>
-			<key>hash2</key>
-			<data>
-			x9d/kCUzj6ZeMhB2fFk/p3/fj0F3p36Zhg1Sz8LnCZ0=
-			</data>
-		</dict>
-		<key>MitLoading.bundle/icon_tips_fail@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			hVgzD0qTh0Mv6GiD9e8vD0p/d8M=
-			</data>
-			<key>hash2</key>
-			<data>
-			LOUiXtybRJP7CkTQQbras0CbmLg8SMn8RSUNyNGIzvA=
-			</data>
-		</dict>
-		<key>MitLoading.bundle/icon_tips_success@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			o4x2loOD4ssSz/CgNqYBIqZ/sUQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			Vfd9KNnjvvWetDhsW24R0vAWaZWUwVgALq4fXMiuelE=
-			</data>
-		</dict>
-		<key>MitLoading.bundle/icon_tips_success@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9tbZscG5Rsaof8pfH90NXCk1UVg=
-			</data>
-			<key>hash2</key>
-			<data>
-			KbLuagPNpyjm9EunSrTwtc96pVJBJs8A4+NZulkT0Lw=
-			</data>
-		</dict>
-		<key>MitLoading.bundle/loading_10@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			pHVTrA+j/r0AvhGuROpuFvYPGpY=
-			</data>
-			<key>hash2</key>
-			<data>
-			e2Wf5brYFXHO6RS9y01TDMPSoFhDJmBOxDtlIvx772s=
-			</data>
-		</dict>
-		<key>MitLoading.bundle/loading_11@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/liwfmDPMBxled2ozwCNkjflPLU=
-			</data>
-			<key>hash2</key>
-			<data>
-			jGB6bd9XpscdVr/eHT8iL9Z6SwT52rC+92vmiNqYEEY=
-			</data>
-		</dict>
-		<key>MitLoading.bundle/loading_12@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			L/xfbqztwL9yoc1ITK8VhOIq9fU=
-			</data>
-			<key>hash2</key>
-			<data>
-			jDeiz110VV4k8zQnw/N8P10zYiURJ7nxe1mK0sr54N0=
-			</data>
-		</dict>
-		<key>MitLoading.bundle/loading_13@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			nX5qNKliXPZ1NODbodFhEkL/IAU=
-			</data>
-			<key>hash2</key>
-			<data>
-			o0w2FEXm0S4NBThALtzmZQYVZ2/ehOxo14jlhflZxEQ=
-			</data>
-		</dict>
-		<key>MitLoading.bundle/loading_14@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Ggg6xNL831E6jcqO3LjpO2wNrYg=
-			</data>
-			<key>hash2</key>
-			<data>
-			SXPK8khNDj4cRM1spASwJju6UgzHEXmaxEPeRmazdNs=
-			</data>
-		</dict>
-		<key>MitLoading.bundle/loading_15@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			A8uwVAkurtSwFrgXRmupOfC3T2c=
-			</data>
-			<key>hash2</key>
-			<data>
-			eKqgzICgtcHHl6Tyl96rDz6C7o7oMgB3fX/lSqOK7zA=
-			</data>
-		</dict>
-		<key>MitLoading.bundle/loading_16@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2pcioGE5ZMAJSmaiv0WP76Ygp6g=
-			</data>
-			<key>hash2</key>
-			<data>
-			l32lyJmljyLXxZ0YafqQQyUuGf6TKWpxrOgSW3kvauY=
-			</data>
-		</dict>
-		<key>MitLoading.bundle/loading_17@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			722BvTlohoqfbTM+P5yo7+etUAI=
-			</data>
-			<key>hash2</key>
-			<data>
-			dfu4s9kt15kgc9vESfjhAP25gD/QwYVfPzrF8QnBaTI=
-			</data>
-		</dict>
-		<key>MitLoading.bundle/loading_18@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			b9OsbNeMRa6YK3YWfphFf8UyOT8=
-			</data>
-			<key>hash2</key>
-			<data>
-			6EicEwWbnxano7di6/2uddkotEvoNWcMz0MIVAjJ/xw=
-			</data>
-		</dict>
-		<key>MitLoading.bundle/loading_19@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			O3LEZy2muhEx7L6gb94Qd4YbHeQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			i4+OxHLvSL9CHGZ8saG5H8tvNVi31s0dt320RXVAy+c=
-			</data>
-		</dict>
-		<key>MitLoading.bundle/loading_1@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zDtQP8kJk/zT/8/dO0KcVL4sFdU=
-			</data>
-			<key>hash2</key>
-			<data>
-			WI4m/hKF5NqGd92jfsjGbQUNyvTaek9r+nW5hDTvcyc=
-			</data>
-		</dict>
-		<key>MitLoading.bundle/loading_20@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7OTimBoGfrJX5cgKsPa2aTORUug=
-			</data>
-			<key>hash2</key>
-			<data>
-			W/I4reWtvA/Qqy5dueSTBzbxTv/IEMtrXtySIpxmR1s=
-			</data>
-		</dict>
-		<key>MitLoading.bundle/loading_21@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ezQXg7anu3wmjZWWCudthTz6bDw=
-			</data>
-			<key>hash2</key>
-			<data>
-			ylSmYXot2tEnk/U7I+kugxwucpGBmj/55XfPuv1MAxw=
-			</data>
-		</dict>
-		<key>MitLoading.bundle/loading_22@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			AxnwcobN5mt/sZS38Wwp5GOosWo=
-			</data>
-			<key>hash2</key>
-			<data>
-			/ELhA24Ch9luHSEx0Dq7quA2hyJyHu3ywb4G7FaP4VY=
-			</data>
-		</dict>
-		<key>MitLoading.bundle/loading_23@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			PVKQzWJDPf0egvGZubW5Bky2SJA=
-			</data>
-			<key>hash2</key>
-			<data>
-			Z+XYKig1EYjyKgIVHkQXDX46lkrUmzniV8ZyGKiZVnc=
-			</data>
-		</dict>
-		<key>MitLoading.bundle/loading_24@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qeqWOY9/c0Iw2Fm8+6va1r5rUFg=
-			</data>
-			<key>hash2</key>
-			<data>
-			yjZWjEdrEICNuYl9msA5ECODqGlCJsxtgqci1pd0diQ=
-			</data>
-		</dict>
-		<key>MitLoading.bundle/loading_25@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xEdh1H1vS/Uen6kT/3biGcpm0HY=
-			</data>
-			<key>hash2</key>
-			<data>
-			7XKjU33cTxmEvhgUj4z0PMVVhIVLGDw2C2SarE/2TgU=
-			</data>
-		</dict>
-		<key>MitLoading.bundle/loading_26@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			722BvTlohoqfbTM+P5yo7+etUAI=
-			</data>
-			<key>hash2</key>
-			<data>
-			dfu4s9kt15kgc9vESfjhAP25gD/QwYVfPzrF8QnBaTI=
-			</data>
-		</dict>
-		<key>MitLoading.bundle/loading_2@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jj8Pk2rk/TuIdqnCo1uiHQ3RQbQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			/pF4MbK8cw9iLdY77Imn2push940DYr8e1+SJrwQa8c=
-			</data>
-		</dict>
-		<key>MitLoading.bundle/loading_3@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			pVm9Yb+SVQOPDd9w0I7NP74o0B4=
-			</data>
-			<key>hash2</key>
-			<data>
-			6SLpSC2Yo89mS2GenifuJmTdzdQJt3k5WbHob8Gh9kY=
-			</data>
-		</dict>
-		<key>MitLoading.bundle/loading_4@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			KvpO/3/LUeytsKkTt/YJpxov08Q=
-			</data>
-			<key>hash2</key>
-			<data>
-			hWjwwg2vULf/txd/ptTWF4lsY9Vpo82stuJFGvGtQgs=
-			</data>
-		</dict>
-		<key>MitLoading.bundle/loading_5@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			GN39YX0K+upBOj2jCxZJLVFI3D4=
-			</data>
-			<key>hash2</key>
-			<data>
-			lR3IMUEKfjRB2YeWq9pexEoiWotFTgSAzzpAbc8/r/s=
-			</data>
-		</dict>
-		<key>MitLoading.bundle/loading_6@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Np48gEFinpsLU+2b/ek4auW7eM0=
-			</data>
-			<key>hash2</key>
-			<data>
-			WfHSBlWnVFV0X6FB52b9hi8GaNlyF4PYjJKxEEYHAnU=
-			</data>
-		</dict>
-		<key>MitLoading.bundle/loading_7@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			VB4zQoFrY+5QkT/b/8rz6H1J9vY=
-			</data>
-			<key>hash2</key>
-			<data>
-			HcGQfJodlQ2r9UATyiU5f8QyjhOKTCDYzVKA0fQkAk0=
-			</data>
-		</dict>
-		<key>MitLoading.bundle/loading_8@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			722BvTlohoqfbTM+P5yo7+etUAI=
-			</data>
-			<key>hash2</key>
-			<data>
-			dfu4s9kt15kgc9vESfjhAP25gD/QwYVfPzrF8QnBaTI=
-			</data>
-		</dict>
-		<key>MitLoading.bundle/loading_9@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			6BlmRmcF7otoBoe/b9Hx1w7vmFg=
-			</data>
-			<key>hash2</key>
-			<data>
-			LipoZ3ytayv20tQBrGmUFwsMIIXqYxIS9zqxF8KtONk=
-			</data>
-		</dict>
-		<key>MitLoading.bundle/zh-Hans.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			30uJVKZ2nsBkYHCQXpS85r5ntbg=
-			</data>
-			<key>hash2</key>
-			<data>
-			NZ9D/qFJNDr6+MLSwrxOq1iQHRQgjxgVUfBM8mv78pI=
-			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
@@ -700,94 +114,6 @@
 			<key>hash2</key>
 			<data>
 			WmuAJGSBpLGYkrDU9KergUVbrwwMcdKdmh1YD7wVayY=
-			</data>
-		</dict>
-		<key>RBLoginKit.bundle/icon_eye_off@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			uNC/MkASaogsbZB0buMrU4X8QCc=
-			</data>
-			<key>hash2</key>
-			<data>
-			YlJrOUXtpFqqaKGQn87sCaXpStur7MCrJU5jf8N2qyw=
-			</data>
-		</dict>
-		<key>RBLoginKit.bundle/icon_eye_off@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UnArs7jyAx+OlmMaQotwqSE0CC0=
-			</data>
-			<key>hash2</key>
-			<data>
-			XsvEue1pkq84UDpDnkr+BcrXG1tQ6NH1zLyBSIZMiwE=
-			</data>
-		</dict>
-		<key>RBLoginKit.bundle/icon_eye_on@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			n5QN1sRyokgqtJ1Q1xuYPSblDng=
-			</data>
-			<key>hash2</key>
-			<data>
-			qlXTGqdGpePsf1V7yIhWhKGvEHE0eOAJXTBHemYSdbs=
-			</data>
-		</dict>
-		<key>RBLoginKit.bundle/icon_eye_on@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3QWrEodnBwnaUv0LOOgqzIWvUC8=
-			</data>
-			<key>hash2</key>
-			<data>
-			ClzGkVlg2IW1kR3mVV0IBgMMFIkypeWq8wM7tEZGfwk=
-			</data>
-		</dict>
-		<key>RBLoginKit.bundle/icon_white_back@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			SqlzqTZ8mCRk48UdSBrJ0MqRvP0=
-			</data>
-			<key>hash2</key>
-			<data>
-			G5s06ADBfDC8ZxGTpHU+7mhixhN/Xi/+K7Ds5s32Nac=
-			</data>
-		</dict>
-		<key>RBLoginKit.bundle/icon_white_back@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			l6/aDUR89fC6crEO0k2XmtFgHn8=
-			</data>
-			<key>hash2</key>
-			<data>
-			cxEsKKG/nBNpBBDCHN2Z4dzgOXz2FZo+PA9viRkbZ3g=
-			</data>
-		</dict>
-		<key>RBVoice.bundle/nearpudding.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ZppOBRFS6khRPOfli21wT4esnH4=
-			</data>
-			<key>hash2</key>
-			<data>
-			7qGuaaL1QBwIJV9bjERaSXfSTsbK5aEDjXQCHTDOCUE=
-			</data>
-		</dict>
-		<key>RBVoice.bundle/opensoudwave.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			F8iYlVSwuRe4LPm7SYSIHgNEQOY=
-			</data>
-			<key>hash2</key>
-			<data>
-			fey9Kf95ClUImldhqwr6RH8wWxLSluHY4hkFYzoVKOI=
 			</data>
 		</dict>
 	</dict>

@@ -1,9 +1,9 @@
 //
-//  RBAccessConfig.h
-//  PuddingAPIDemo
+//  STPAccessConfig.h
+//  SpeakPenAPIDemo
 //
-//  Created by baxiang on 2017/4/19.
-//  Copyright © 2017年 baxiang. All rights reserved.
+//  Created by kris on 2017/4/19.
+//  Copyright © 2017年 kris. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -18,11 +18,11 @@ typedef NS_ENUM(NSUInteger, RBDevelopEnv) {
 };
 
 
-#define RBAccessConfiger [RBAccessConfig defaultConfig]
+#define STPAccessConfiger [STPAccessConfig defaultConfig]
 /**
-  roobo sdk 全局配置文件
+  stp sdk 全局配置文件
  */
-@interface RBAccessConfig : NSObject
+@interface STPAccessConfig : NSObject
 
 
 /**

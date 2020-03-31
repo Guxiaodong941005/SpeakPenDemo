@@ -6,6 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/SpeakPen.svg?style=flat)](https://cocoapods.org/pods/SpeakPen)
 
 ## Example
+This is speakPen pod sounce code 
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
@@ -22,7 +23,7 @@ pod 'SpeakPen'
 
 ## Author
 
-Guxiaodong941005, guxiaodong@roobo.com
+Guxiaodong941005
 
 ## License
 
