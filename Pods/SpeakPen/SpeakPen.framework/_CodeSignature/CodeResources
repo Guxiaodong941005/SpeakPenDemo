@@ -20,6 +20,22 @@
 		<data>
 		MlSJUaAyznZP2DttFKn0lanJcbE=
 		</data>
+		<key>Headers/STPPicBookResourceModel.h</key>
+		<data>
+		wXGur+FJ7uWggVuSTlhRaKC50A0=
+		</data>
+		<key>Headers/STPPictureBookApi.h</key>
+		<data>
+		JmtE63yZ+8SrmXi+BzNeGynk0NU=
+		</data>
+		<key>Headers/STPStudyReportApi.h</key>
+		<data>
+		TvYEIzfYvLd8P8L3R+1my0U0CLs=
+		</data>
+		<key>Headers/STPStudyReportModel.h</key>
+		<data>
+		rlc7N40pnGNhFLjeuODxcblCveo=
+		</data>
 		<key>Headers/STPUserApi.h</key>
 		<data>
 		fBywY83c8S2yjh94NPVAFWRHzec=
@@ -81,6 +97,50 @@
 			<key>hash2</key>
 			<data>
 			1D45h+6ePGNZUcisNRvEIALTmd03dK1WW3ubyR35AcM=
+			</data>
+		</dict>
+		<key>Headers/STPPicBookResourceModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wXGur+FJ7uWggVuSTlhRaKC50A0=
+			</data>
+			<key>hash2</key>
+			<data>
+			1MNdR+2akmCHjtuBVRNka7H/L/nNcaoUr5rqurIsrnw=
+			</data>
+		</dict>
+		<key>Headers/STPPictureBookApi.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JmtE63yZ+8SrmXi+BzNeGynk0NU=
+			</data>
+			<key>hash2</key>
+			<data>
+			fGSAB5JgCaz6nYk4TZJ3z98rUZRbLyrTEtUj8EGgSzo=
+			</data>
+		</dict>
+		<key>Headers/STPStudyReportApi.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TvYEIzfYvLd8P8L3R+1my0U0CLs=
+			</data>
+			<key>hash2</key>
+			<data>
+			wgncMXS2PvnnRNO0mNx3Deb9HnKFE/NUqXnMLjp6tlY=
+			</data>
+		</dict>
+		<key>Headers/STPStudyReportModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rlc7N40pnGNhFLjeuODxcblCveo=
+			</data>
+			<key>hash2</key>
+			<data>
+			WIoVp4i6cZdgNb95kJqG6grM7kZARmxRDgAMnq3jUeQ=
 			</data>
 		</dict>
 		<key>Headers/STPUserApi.h</key>
