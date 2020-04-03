@@ -1,0 +1,32 @@
+PODS:
+  - BabyBluetooth (0.7.0)
+  - CocoaAsyncSocket (7.6.3)
+  - Masonry (1.1.0)
+  - OpenSSL (1.0.210)
+  - ReactiveObjC (3.1.0)
+
+DEPENDENCIES:
+  - BabyBluetooth
+  - CocoaAsyncSocket
+  - Masonry
+  - OpenSSL
+  - ReactiveObjC
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BabyBluetooth
+    - CocoaAsyncSocket
+    - Masonry
+    - OpenSSL
+    - ReactiveObjC
+
+SPEC CHECKSUMS:
+  BabyBluetooth: d50758aecf24d4a0ab9271d69f0f116d6bee51c9
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  OpenSSL: 246ffb948e9d56466727fd318134af35f5aa764e
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+
+PODFILE CHECKSUM: 90586fa7322073910d75129fd9893bc14187db15
+
+COCOAPODS: 1.5.3
