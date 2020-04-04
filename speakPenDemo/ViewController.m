@@ -16,11 +16,15 @@
 #import <SpeakPen/STPStudyReportApi.h>
 #import <SpeakPen/STPStudyReportModel.h>
 
+#import <YYModel/YYModel.h>
+
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
 
 @property (nonatomic, strong) NSArray * dataArray;
+
+@property (nonatomic, strong) UIAlertController *alertVc;
 
 @end
 
@@ -51,15 +55,15 @@
                STPAccessConfiger.currDeviceID = [[user.devices firstObject] deviceID];
             }
         }
-        UIAlertController *alertVc = [UIAlertController alertControllerWithTitle:tips message:message preferredStyle:UIAlertControllerStyleAlert];
+        self.alertVc = [UIAlertController alertControllerWithTitle:tips message:message preferredStyle:UIAlertControllerStyleAlert];
            UIAlertAction *sureBtn = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull   action) {
                NSLog(@"确定");
            }];
            [sureBtn setValue:[UIColor redColor] forKey:@"titleTextColor"];
            //将action添加到控制器
-           [alertVc addAction :sureBtn];
+           [self.alertVc addAction :sureBtn];
            //展示
-           [self presentViewController:alertVc animated:YES completion:nil];
+           [self presentViewController:self.alertVc animated:YES completion:nil];
            
     }];
     // Do any additional setup after loading the view.
@@ -117,6 +121,7 @@
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    __block NSString *message;
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
         switch (indexPath.row) {
                case 0:
@@ -124,6 +129,12 @@
                 //获取当前用户的所有设备
                 [STPDeviceApi getDeviceList:YES block:^(NSArray<STPDeviceModel *> * _Nonnull device, NSError * _Nonnull error) {
                     NSLog(@"--获取设备列表-%@-----%@",device,error);
+                    if (error) {
+                        message = error.description;
+                    } else {
+                        message = [device yy_modelToJSONString];
+                    }
+                    [self showMessage:message];
                 }];
             }
                 break;
@@ -132,6 +143,12 @@
                           //获取当前用户的所有设备
                 [STPDeviceApi getHardwareInfo:^(STPHardwareModel *deviceDict, NSError * _Nonnull error) {
                      NSLog(@"获取设备硬件信息: %@---%@",deviceDict,error);
+                    if (error) {
+                        message = error.description;
+                    } else {
+                        message = [deviceDict yy_modelToJSONString];
+                    }
+                    [self showMessage:message];
                 }];
             }
                 break;
@@ -139,6 +156,12 @@
             {
                 [STPDeviceApi getDeviceDetail:^(STPDevicesDetail * _Nonnull detail, NSError * _Nonnull error) {
                       NSLog(@"获取设备详情: %@---%@",detail,error);
+                    if (error) {
+                        message = error.description;
+                    } else {
+                        message = [detail yy_modelToJSONString];
+                    }
+                    [self showMessage:message];
                 }];
             }
                 break;
@@ -146,7 +169,12 @@
             {
                 //关闭设备
                 [STPDeviceApi shutdownDevice:^(BOOL isSuccess, NSError * _Nonnull error) {
-                    
+                    if (error) {
+                        message = error.description;
+                    } else {
+                        message = [NSString stringWithFormat:@"是否成功 isSuccess ： %d",isSuccess];
+                    }
+                    [self showMessage:message];
                 }];
             }
                 break;
@@ -154,7 +182,12 @@
             {
                 // 修改设备名称
                 [STPDeviceApi updateDeviceName:@"点读笔1" block:^(BOOL isSuccess, NSError * _Nonnull error) {
-                    
+                    if (error) {
+                        message = error.description;
+                    } else {
+                        message = [NSString stringWithFormat:@"是否成功 isSuccess ： %d",isSuccess];
+                    }
+                    [self showMessage:message];
                 }];
             }
                 break;
@@ -163,6 +196,12 @@
                 // 修改设备音量
                 [STPDeviceApi changeDeviceVolume:50 block:^(BOOL isSuccess, NSError * _Nonnull error) {
                     NSLog(@"-修改设备音量----%d-------%@",isSuccess,error);
+                    if (error) {
+                        message = error.description;
+                    } else {
+                        message = [NSString stringWithFormat:@"是否成功 isSuccess ： %d",isSuccess];
+                    }
+                    [self showMessage:message];
                 }];
             }
                 break;
@@ -170,7 +209,12 @@
             {
                 // 检测新版本
                 [STPDeviceApi checkDeviceVersion:^(BOOL update, NSString * _Nonnull version, NSError * _Nullable error) {
-                    
+                    if (error) {
+                        message = error.description;
+                    } else {
+                        message = [NSString stringWithFormat:@"是否成功 isSuccess ： %d",update];
+                    }
+                    [self showMessage:message];
                 }];
             }
                 break;
@@ -178,105 +222,180 @@
             {
                 //更新新版本
                 [STPDeviceApi updateDevice:^(id  _Nonnull response, NSError * _Nullable error) {
-                    
+                    if (error) {
+                        message = error.description;
+                    } else {
+                        message = [NSString stringWithFormat:@"： %@",response];
+                    }
+                    [self showMessage:message];
                 }];
             }
                 break;
                 case 8:
             {
                 [STPDeviceApi restartDevice:^(BOOL isSuccess, NSError * _Nonnull error) {
-                    
+                    if (error) {
+                        message = error.description;
+                    } else {
+                        message = [NSString stringWithFormat:@"是否成功 isSuccess ： %d",isSuccess];
+                    }
+                    [self showMessage:message];
                 }];
             }
                 break;
                 case 9:
             {
                 [STPUserApi updateUserName:@"我是新用户" completionBlock:^(BOOL isSucceed, NSError * _Nullable error) {
-                    
+                    if (error) {
+                        message = error.description;
+                    } else {
+                        message = [NSString stringWithFormat:@"是否成功 isSuccess ： %d",isSucceed];
+                    }
+                    [self showMessage:message];
                 }];
             }
                 break;
                 case 10:
             {
                 [STPPictureBookApi getAllPicbookList:0 count:20 block:^(STPPicBookResourceList * _Nullable list, NSError * _Nullable error) {
-                
+                    if (error) {
+                        message = error.description;
+                    } else {
+                        message = [list yy_modelToJSONString];
+                    }
+                    [self showMessage:message];
                 }];
             }
                 break;
                 case 11:
             {
                  [STPPictureBookApi searchPicbookList:@"妈妈" block:^(STPPicBookResourceList * _Nullable list, NSError * _Nullable error) {
-                                  
+                     if (error) {
+                         message = error.description;
+                     } else {
+                         message = [list yy_modelToJSONString];
+                     }
+                     [self showMessage:message];
                  }];
             }
                 break;
                 case 12:
             {
                 [STPPictureBookApi getPicbookDetail:@"3562496" block:^(STPPicBookDetailModel * _Nullable detailModel, NSError * _Nullable error) {
-                    
+                    if (error) {
+                        message = error.description;
+                    } else {
+                        message = [detailModel yy_modelToJSONString];
+                    }
+                    [self showMessage:message];
                 }];
             }
                 break;
                 case 13:
             {
                 [STPPictureBookApi uploadPicbook:@"2576772" block:^(BOOL isSuss, NSError * _Nullable error) {
-                            
+                            if (error) {
+                                message = error.description;
+                            } else {
+                                message = [NSString stringWithFormat:@"是否成功 isSuccess ： %d",isSuss];
+                            }
+                    [self showMessage:message];
                 }];
             }
                 break;
                 case 14:
             {
                 [STPPictureBookApi deletePicbook:@"2576772" block:^(BOOL isSuss, NSError * _Nullable error) {
-                                
+                    if (error) {
+                        message = error.description;
+                    } else {
+                        message = [NSString stringWithFormat:@"是否成功 isSuccess ： %d",isSuss];
+                    }
+                    [self showMessage:message];
                 }];
             }
                 break;
                 case 15:
             {
                 [STPPictureBookApi getLocalPicbookList:0 count:7 block:^(STPPicBookDetailList * _Nullable list, NSError * _Nullable error) {
-                    
+                    if (error) {
+                        message = error.description;
+                    } else {
+                        message = [list yy_modelToJSONString];
+                    }
+                    [self showMessage:message];
                 }];
             }
                 break;
                 case 16:
             {
                 [STPPictureBookApi getSdcardInfo:^(STPSdcardInfo * _Nullable cardInfo, NSError * _Nullable error) {
-                
+                if (error) {
+                    message = error.description;
+                } else {
+                    message = [cardInfo yy_modelToJSONString];
+                }
+                    [self showMessage:message];
                 }];
             }
                 break;
                 case 17:
             {
                 [STPStudyReportApi getStudyAchieveData:@"point-reading" startDate:@"2020-03-24" endDate:@"2020-03-31" block:^(STPStudyAchieveList * _Nullable list, NSError * _Nullable error) {
-                    
+                    if (error) {
+                        message = error.description;
+                    } else {
+                        message = [list yy_modelToJSONString];
+                    }
+                    [self showMessage:message];
                 }];
             }
                 break;
                 case 18:
             {
                 [STPStudyReportApi getStudyAchieveData:@"point-reading" fromId:0 count:7 block:^(STPStudyAchieveList * _Nullable list, NSError * _Nullable error) {
-                    
+                    if (error) {
+                        message = error.description;
+                    } else {
+                        message = [list yy_modelToJSONString];
+                    }
+                    [self showMessage:message];
                 }];
             }
                 break;
                 case 19:
             {
                 [STPStudyReportApi getStudyAchieveDetailData:@"duration" fromId:0 count:7 block:^(STPStudyAchieveDetail * _Nullable list, NSError * _Nullable error) {
-                
+                if (error) {
+                    message = error.description;
+                } else {
+                    message = [list yy_modelToJSONString];
+                }
+                    [self showMessage:message];
                 }];
             }
                 break;
                 case 20:
             {
                 [STPStudyReportApi getFollowReadData:@"2020-03-24" endDate:@"2020-03-31" block:^(NSArray * _Nullable list, NSError * _Nullable error) {
-                
+                if (error) {
+                    message = error.description;
+                } else {
+                    message = [list yy_modelToJSONString];
+                }
+                    [self showMessage:message];
                 }];
             }
                 break;
                 case 21:
             {
                 [STPStudyReportApi getFollowReadData:0 count:7 block:^(NSArray * _Nullable list, NSError * _Nullable error) {
-                
+                if (error) {
+                    message = error.description;
+                } else {
+                    message = [list yy_modelToJSONString];
+                }
+                    [self showMessage:message];
                 }];
             }
                 break;
@@ -284,4 +403,17 @@
                 break;
         }
 }
+
+- (void)showMessage:(NSString *)message {
+    self.alertVc = [UIAlertController alertControllerWithTitle:@"结果" message:message preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *sureBtn = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull   action) {
+        NSLog(@"确定");
+    }];
+    [sureBtn setValue:[UIColor redColor] forKey:@"titleTextColor"];
+    //将action添加到控制器
+    [self.alertVc addAction :sureBtn];
+    //展示
+    [self presentViewController:self.alertVc animated:YES completion:nil];
+}
+
 @end
