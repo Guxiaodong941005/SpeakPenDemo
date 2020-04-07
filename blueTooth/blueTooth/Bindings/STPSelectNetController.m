@@ -15,6 +15,8 @@
 #include <ifaddrs.h>
 #include <arpa/inet.h>
 #import <sys/utsname.h>
+
+
 @interface STPSelectNetController ()<UITextFieldDelegate>
 @property (nonatomic, strong) UILabel *titleLabel;              //   title
 @property (nonatomic, weak) UITextField * wifiNameTxtField;
@@ -130,19 +132,29 @@
 #if TARGET_OS_SIMULATOR
     return @"(simulator)";
 #else
-    NSArray *ifs = (__bridge id)CNCopySupportedInterfaces();
+    NSString *wifiName = nil;
     
-    id info = nil;
-    for (NSString *ifnam in ifs) {
-        info = (__bridge id)CNCopyCurrentNetworkInfo((__bridge CFStringRef)ifnam);
-        if (info && [info count]) {
-            break;
+    CFArrayRef wifiInterfaces = CNCopySupportedInterfaces();
+    
+    if (!wifiInterfaces) {
+        
+        return nil;
+        
+    }
+    NSArray *interfaces = (__bridge NSArray *)wifiInterfaces;
+    for (NSString *interfaceName in interfaces) {
+        CFDictionaryRef dictRef = CNCopyCurrentNetworkInfo((__bridge CFStringRef)(interfaceName));
+        if (dictRef) {
+            NSDictionary *networkInfo = (__bridge NSDictionary *)dictRef;
+            NSLog(@"network info -> %@", networkInfo);
+            wifiName = [networkInfo objectForKey:(__bridge NSString *)kCNNetworkInfoKeySSID];
+            CFRelease(dictRef);
         }
     }
-    NSDictionary *dctySSID = (NSDictionary *)info;
-    NSString *ssid = [dctySSID objectForKey:@"SSID"] ;
     
-    return ssid;
+    CFRelease(wifiInterfaces);
+    
+    return wifiName;
 #endif
 }
 

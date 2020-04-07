@@ -82,7 +82,6 @@
 //        @strongify(self);
         if (bleState == STPBleStatePoweroff) {
             [self.nextBtn setEnabled:NO];
-//             [RBToastView showWithText:@"蓝牙为打开" inView:self.view];
         }else{
             [self.nextBtn setEnabled:YES];
         }
