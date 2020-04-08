@@ -76,7 +76,7 @@ typedef NS_ENUM(NSInteger,STPDeviceBindResult){
                 _wifiPassword = [_wifiPassword stringByReplacingOccurrencesOfString:@"#" withString:@"\\#"];
             }
             
-            // TODO : 在此需要将用户ID发送到硬件设备，用于硬件设备绑定用户。userid (需要替换)
+            // STP TODO : 在此需要将用户ID发送到硬件设备，用于硬件设备绑定用户。userid (需要替换)
             object.wifiPassword = [NSString stringWithFormat:@"v1#%@#%@#",_wifiPassword,@"userid"]; // 用户ID
             [[STPBluetoothManager sharedInstance] setOpmodeObject:object];
             [self bindResultCountdown];
@@ -96,7 +96,7 @@ typedef NS_ENUM(NSInteger,STPDeviceBindResult){
 {
     RACSignal *racSignal  = [[RACSignal interval:1 onScheduler:[RACScheduler currentScheduler]] timeout:30 onScheduler:[RACScheduler currentScheduler]];
     _signal = [racSignal subscribeNext:^(id x) {
-        // TODO : 在此处循环请求 当前用户是否绑定成功设备。
+        // STP TODO : 在此处循环请求 当前用户是否绑定成功设备。
 //        [STPDeviceApi getDeviceBindInfo:^(STPBindInfo * _Nullable response, NSError * _Nullable error) {
 //
 //        if ([bindInfo.deviceID isNotBlank]){

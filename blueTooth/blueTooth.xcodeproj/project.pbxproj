@@ -503,7 +503,7 @@
 				CODE_SIGN_ENTITLEMENTS = blueTooth/blueTooth.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = V4AF5B7CJK;
+				DEVELOPMENT_TEAM = 52AHMZ5PN7;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
