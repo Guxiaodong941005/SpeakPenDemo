@@ -1,4 +1,10 @@
 # SpeakPenSDK
+
+## SDK demo 和 蓝牙连接demo git地址
+```ruby
+https://github.com/Guxiaodong941005/SpeakPenDemo.git
+```
+
 SDK 以 pod 引入方式 获取。 SDK 包括：
 
 设备相关API
